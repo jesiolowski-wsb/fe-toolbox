@@ -1,40 +1,426 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
 
-		<title>reveal.js</title>
+    <title>reveal.js</title>
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/black.css" />
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>FE-dev toolbox</section>
+        <section>
+          <section>whoami</section>
+          <section>
+            <div>
+              developer (fullstack / sysadm -> FE -> FE-lead), lecturer,
+              ex-photographer, PM, mentor
+            </div>
+            <a target="_new" href="https://www.linkedin.com/in/jesiolowski/"
+              >.in</a
+            >
+          </section>
+        </section>
+        <section>
+          <section>AIM</section>
+          <section>
+            <div>
+              to give a rough overview of what is achievable, what is applicable
+              and what is welcomed
+            </div>
+          </section>
+          <section>NEITHER a tutorial NOR a manual</section>
+          <section>...not even entirely technical</section>
+          <section>maybe a glimpse of how we work</section>
+          <section>
+            "the biggest obstacles are those hardest to perceive"
+          </section>
+        </section>
+        <section>
+          expectations
+          <div class="fragment"><small>(...your turn :) )</small></div>
+        </section>
+        <section>
+          <section>boundaries</section>
+          <section>
+            <ul>
+              <li>lack of context of who we are</small></li>
+              <li>time</small></li>
+              <li>"formalities"</small></li>
+            </ul>
+            <br /><br />
+            <div class="fragment grow">opportunity not an obstacle</div>
+          </section>
+        </section>
+        <section data-background-color="#725193">
+          <section>structure</section>
+          <section>
+            <div>ordered by TYPE</div>
+            <ul>
+              <li class="fragment">general</small></li>
+              <li class="fragment">visual</small></li>
+              <li class="fragment">code-related (ooIDE)</small></li>
+              <li class="fragment">code-related (IDE)</small></li>
+              <li class="fragment">collab</small></li>
+              <li class="fragment">personal</small></li>
+            </ul>
+          </section>
+        </section>
+        <section data-background-color="#80c9c0">
+          <div>GENERAL</div>
+          <section>
+            <ul>
+              <li>
+                <a target="_new" href="https://git-scm.com/">GIT</a> <small>- version
+                control system
+              </small></li>
+              <li>
+                <a target="_new" href="https://github.com/">github</a> <small>- code
+                hosting platform
+              </small></li>
+              <li>
+                <a
+                  target="_new"
+                  href="https://bradfrost.com/blog/post/atomic-web-design/"
+                  >Atomic design</a
+                ><small>
+                - design system methodology
+              </small></li>
+              <li>
+                <a target="_new" href="https://www.typescriptlang.org/"
+                  >TypeScript</a
+                ><small>
+                - superset of JS for types creation
+              </small></li>
+              <li>
+                <a target="_new" href="https://storybook.js.org/">storybook</a><small>
+                - tool for building components in isolation
+              </small></li>
+              <li>
+                <a
+                  target="_new"
+                  href="https://developer.chrome.com/docs/devtools/"
+                  >chrome devtools</a
+                ><small>
+                - developer toolkit
+              </small></li>
+              <li>
+                <a target="_new" href="https://sass-lang.com/guide"
+                  >SASS / SCSS</a
+                ><small>
+                - CSS extension
+              </small></li>
+              <li>
+                <a
+                  target="_new"
+                  href="https://www.markdownguide.org/basic-syntax/"
+                  >markdown</a
+                ><small>
+                - markup for writing formatted text
+              </small></li>
+              <li>
+                <a
+                  target="_new"
+                  href="https://developer.mozilla.org/pl/docs/Web/API/Console"
+                  >console.(...)</a
+                ><small>
+                - there's more than console.log
+              </small></li>
+            </ul>
+          </section>
+        </section>
+        <section data-background-color="#C8C2AE">
+          <div>VISUAL</div>
+          <section>
+            <ul>
+              <li>
+                <a target="_new" href="https://www.figma.com/">figma</a> <small>-
+                vector prototype creation and collab
+              </small></li>
+              <li>
+                <a target="_new" href="https://www.sketch.com/">sketch</a> <small>-
+                vector prototype creation
+              </small></li>
+              <li>
+                <a
+                  target="_new"
+                  href="https://www.adobe.com/pl/products/xd.html"
+                  >Adobe XD</a
+                ><small>
+                - vector prototype creation
+              </small></li>
+              <li>
+                <a target="_new"
+                  href="https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=pl"
+                  >pixel perfect</a
+                ><small>
+                - browser extension for accuracy
+              </small></li>
+              <li>
+                <a target="_new"
+                  href="https://chrome.google.com/webstore/detail/visbug/cdockenadnadldjbbgcallicgledbeoc"
+                  >visbug</a
+                ><small>
+                - design debug tools
+              </small></li>
+              <li>
+                <a
+                  target="_new"
+                  href="https://color.adobe.com/create/color-wheel"
+                  >adobe color wheel</a
+                ><small>
+                - color palette creation helper
+              </small></li>
+              <li>
+                <a target="_new" href="https://coolors.co/">coolors</a> <small>- color
+                palette creation helper
+              </small></li>
+              <li>
+                <a target="_new"
+                  href="https://getbootstrap.com/docs/5.2/getting-started/introduction/"
+                  >bootstrap</a
+                ><small>
+                - CSS framework
+              </small></li>
+              <li>
+                <a target="_new"
+                  href="https://get.foundation/sites/docs/kitchen-sink.html#accordion"
+                  >foundation</a
+                ><small>
+                - CSS framework
+              </small></li>
+              <li>
+                <a
+                  target="_new"
+                  href="https://mui.com/material-ui/react-autocomplete/"
+                  >material UI</a
+                ><small>
+                - CSS framework
+              </small></li>
+            </ul>
+          </section>
+        </section>
+        <section data-background-color="#34E4EA">
+          <div>code-related (ooIDE)</div>
+          <section>
+            <ul>
+              <li>
+                <a  target="_new" href="https://swagger.io/">swagger</a> <small>- API development aid
+                (<a  target="_new" href="https://petstore.swagger.io/#/">example</a>)
+              </small></li>
+              <li>
+                <a target="_new" href="https://www.postman.com/">Postman</a> <small>-
+                API testing tool
+              </small></li>
+              <li>
+                <a target="_new" href="https://github.com/typicode/json-server"
+                  >JSON-server</a
+                ><small>
+                - mocking dumb REST json services
+              </small></li>
+              <li>
+                <a target="_new" href="https://requestly.io/">Requestly</a> <small>-
+                requests intercepting proxy
+              </small></li>
+              <li>
+                <a target="_new" href="https://responsively.app/"
+                  >responsively</a
+                ><small>
+                - streamlining webdev by visualising layouts
+              </small></li>
+              <li>
+                <a target="_new" href="https://www.browserstack.com/"
+                  >browserstack</a
+                ><small>
+                - real testing platform for OS/browser versions
+              </small></li>
+              <li>
+                <a target="_new" href="https://runjs.app/">runJS</a> <small>- JS/TS
+                playground
+              </small></li>
+            </ul>
+          </section>
+        </section>
+        <section data-background-color="#355172">
+          <div>code-related (IDE)</div>
+          <section>
+            <ul>
+              <li>
+                <a target="_new" href="https://www.jetbrains.com/webstorm/"
+                  >Webstorm</a
+                >
+                /
+                <a target="_new"
+                  href="https://www.jetbrains.com/community/education/#students"
+                  >free licence for students</a
+                ><small>- IDE
+              </small></li>
+              <li><a href="https://plugins.jetbrains.com/plugin/7499-gittoolbox">git toolbox</a><small>- inline blame & more</small></li>
+              <li>
+                <a
+                  target="_new"
+                  href="https://docs.emmet.io/abbreviations/syntax/"
+                  >emmet</a
+                ><small>- abbreviations for streamlining code creation
+              </small></li>
+              <li>
+                <a target="_new"
+                  href="https://plugins.jetbrains.com/plugin/10113-react-snippets"
+                  >react / angular snippets</a
+                ><small>- writing less is more :)
+              </small></li>
+              <li>
+                <a
+                  target="_new"
+                  href="https://plugins.jetbrains.com/plugin/7275-codeglance"
+                  >code glance</a
+                ><small>- helicopter view onto the code
+              </small></li>
+              <li>
+                <a target="_new"
+                  href="https://plugins.jetbrains.com/plugin/10080-rainbow-brackets"
+                  >rainbow brackets</a
+                ><small>- sometimes it's hard to know where certain block ends
+              </small></li>
+              <li>
+                <a
+                  target="_new"
+                  href="https://plugins.jetbrains.com/plugin/10456-prettier"
+                  >prettier</a
+                ><small> - musthave - code formatter
+              </small></li>
+              <li>
+                <a target="_new"
+                  href="https://plugins.jetbrains.com/plugin/9792-key-promoter-x"
+                  >key promoter x</a
+                ><small>- learn to code using keyboard
+              </small></li>
+              <li>
+                <a target="_new"
+                  href="https://plugins.jetbrains.com/plugin/12798-tabnine-ai-code-completion-js-java-python-ts-rust-go-php--more"
+                  >tabnine</a
+                ><small>- AI anticipating what you want to write
+              </small></li>
+              <li>
+                <a target="_new"
+                  href="https://plugins.jetbrains.com/plugin/17718-github-copilot"
+                  >github copilot</a
+                >
+                (<a
+                  target="_new"
+                  href="https://www.youtube.com/watch?v=RK02u7bwqV8"
+                  >:></a
+                >)<small>- AI doing what you need
+              </small></li>
+            </ul>
+          </section>
+        </section>
+        <section data-background-color="#2B4141">
+          <div>COLLAB</div>
+          <section>
+            <ul>
+              <li><a target="_new" href="https://miro.com/">MIRO</a><small></small></li>
+              <li><a target="_new" href="https://www.mural.co/">MURAL</a><small></small></li>
+              <li>
+                <a target="_new" href="https://codepen.io/">codepen.io</a><small>
+              </small></li>
+              <li>
+                <a target="_new" href="https://stackblitz.com/">stackblitz</a><small>
+              </small></li>
+              <li><a target="_new" href="https://slack.com/">slack</a><small></small></li>
+              <li>
+                <a
+                  target="_new"
+                  href="https://www.microsoft.com/pl-pl/microsoft-teams/log-in"
+                  >MS Teams</a
+                >
+              </small></li>
+            </ul>
+          </section>
+        </section>
+        <section data-background-color="#168411">
+          <div>PERSONAL</div>
+          <section>
+            <ul>
+              <li>communicativeness</li>
+              <li>courage in making mistakes</li>
+              <li>internal drive for constant improvement</li>
+              <li>teamwork</li>
+              <li>fast learner</li>
+            </ul>
+          </section>
+        </section>
+        <section>
+          <div>resources</div>
+          <section>
+            <ul>
+              <li>
+                YT:
+                <a target="_new"
+                  href="https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw"
+                  >Webdev simplified</a
+                >
+              </small></li>
+              <li>
+                YT:
+                <a target="_new"
+                  href="https://www.youtube.com/channel/UCJZv4d5rbIKd4QHMPkcABCw"
+                  >Kevin powell</a
+                >
+              </li>
+              <li>
+                YT:
+                <a target="_new"
+                  href="https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg"
+                  >The net ninja</a
+                >
+              </li>
+              <li>
+                <a target="_new" href="https://frontendmasters.com/"
+                  >frontendmasters.com</a
+                >
+                (<a target="_new"
+                  href="https://frontendmasters.com/welcome/github-student-developers/"
+                  >6 months free for students eligible for GitHub SDP</a
+                >)
+              </li>
+              <li>
+                <a target="_new" href="https://css-tricks.com/almanac/"
+                  >CSS tricks</a
+                >
+              </li>
+            </ul>
+          </section>
+        </section>
+        <section>outro</section>
+      </div>
+    </div>
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
+    </script>
+  </body>
 </html>
